@@ -4,6 +4,9 @@
 public class ElsoSzorgalmi {
 
     public boolean feladatSikeres() {
-        return true;
+            String elsoSzoveg="ELSO szoveg";
+            String elsovelAzonosTartalmuSzoveg=new String("ELSO szoveg");
+            // ide irj
+            return elsoSzoveg == elsovelAzonosTartalmuSzoveg;
     }
 }
