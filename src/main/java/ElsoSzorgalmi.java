@@ -7,6 +7,7 @@ public class ElsoSzorgalmi {
             String elsoSzoveg="ELSO szoveg";
             String elsovelAzonosTartalmuSzoveg=new String("ELSO szoveg");
             // ide irj
+            elsovelAzonosTartalmuSzoveg = "ELSO szoveg";
             return elsoSzoveg == elsovelAzonosTartalmuSzoveg;
     }
 }
